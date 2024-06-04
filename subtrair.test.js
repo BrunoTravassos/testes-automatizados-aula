@@ -3,6 +3,13 @@
 
 const subtrair = require('./subtrair')
 
-test('deve verificar o resultado de uma subtração',()=>{
-    expect(subtrair(7,2)).toBe(5)
+describe('testes de subtração',()=>{
+    test('deve verificar o resultado de uma subtração',()=>{
+        expect(subtrair(7,2)).toBe(5)
+    })
+
+    test('deve verificar o resultado incorreto de uma subtração',()=>{
+        expect(subtrair(9,4)).not.toBe(3)
+    })
 })
+
