@@ -5,7 +5,8 @@ import subtrair from "./subtrair";
 
 describe('testes de subtração',()=>{
     test('deve verificar o resultado de uma subtração',()=>{
-        expect(subtrair(7,2)).toBe(5)
+        expect(subtrair(7,2.5)).toBeCloseTo(4.5)
+        expect(subtrair(72,2)).toBe(70)
     })
 
     test('deve verificar o resultado incorreto de uma subtração',()=>{

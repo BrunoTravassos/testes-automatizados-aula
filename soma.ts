@@ -4,14 +4,14 @@
 
 // import bibliotecaQualquer from 'sadfdasdf'
 
-function soma(num1,num2){
+export default function soma(num1:number,num2:number){
     return num1 + num2;
 }
 
-const nSoma = 'Soma'
+// const nSoma = 'Soma'
 
-module.exports = {
-    soma,
-    nSoma
-}
+// module.exports = {
+//     soma,
+//     nSoma
+// }
 
