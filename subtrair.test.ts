@@ -1,7 +1,7 @@
 // import test from "node:test";
-// import subtrair from "./subtrair.js";
+import subtrair from "./subtrair";
 
-const subtrair = require('./subtrair')
+//const subtrair = require('./subtrair')
 
 describe('testes de subtração',()=>{
     test('deve verificar o resultado de uma subtração',()=>{

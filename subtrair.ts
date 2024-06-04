@@ -22,7 +22,7 @@
 
 //exportação default um por arquivo
 
-function subtrair(num1,num2){
+export default function subtrair(num1:number,num2:number){
     return num1 - num2;
 }
 
@@ -39,4 +39,4 @@ const usuario = {
 //     usuario
 // }
 
-module.exports = subtrair
+//module.exports = subtrair
